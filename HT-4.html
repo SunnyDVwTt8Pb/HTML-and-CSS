@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-4</title>
+
+    <style>
+        .outer-div {
+            width: 500px;
+            border: 2px solid black;
+        }
+        
+        .inner-div {
+            margin: 10px;
+        }
+        
+        input,
+        label,
+        option {
+            width: 200px;
+            display: inline-flex;
+        }
+        
+        select,
+        option {
+            margin-left: 152px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <caption><ins><h3>TASK-4</h3></ins></caption><br>
+
+    <div class="outer-div">
+
+        <div class="inner-div">
+
+            <label for="Full Name :">Full Name:</label>
+            <input type="text" name="fname" alt="fname" required><br><br>
+            <label for="Username :">Username:</label>
+            <input type="text" name="uname" alt="uname" required><br><br>
+            <label for="Password"> Password:</label>
+            <input type="password" name="password" alt="password" required><br><br>
+            <label for="Re Password">Re Password:</label>
+            <input type="password" name="re password" required><br><br>
+            <label for="Address :">Address:</label>
+            <input type="text" name="address" alt="Address" required><br><br>
+            <label for="Age">Age:</label>
+            <input type="number" name="age" alt="age" required><br><br>
+            <label for="Gneder :">Gender:
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+        </select>
+    </label><br><br>
+
+            <button onclick="Save">Save</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

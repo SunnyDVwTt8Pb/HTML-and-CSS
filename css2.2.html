@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TASK-2</title>
+
+    <style>
+        .outer-div {
+            border: 1px solid black;
+            width: 150px;
+            height: 165px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0.5px;
+            background-color: aqua;
+            position: relative;
+            overflow: auto;
+        }
+        
+        li a {
+            display: block;
+            text-decoration: none;
+            padding: 3px 3px;
+            font-size: large;
+            font-weight: 500;
+        }
+        
+        li a:hover {
+            background-color: #FFAA33;
+            color: white;
+        }
+        
+        .active {
+            background-color: #FFAA33;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Vertical navbar</h2>
+    <div class="outer-div">
+
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Bootstrap</a></li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
